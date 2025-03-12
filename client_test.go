@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com\AndsGo\go-wordpress"
+	"github.com/jmolboy/go-wordpress"
 )
 
 var USER string = os.Getenv("WP_USER")

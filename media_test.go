@@ -7,12 +7,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com\AndsGo\go-wordpress"
+	"github.com/jmolboy/go-wordpress"
 )
 
 func factoryMediaFileUpload(t *testing.T) *wordpress.MediaUploadOptions {
 
-	// assuming current-working directory `{GO_WORKSPACE_PATH}/src/github.com\AndsGo\go-wordpress`
+	// assuming current-working directory `{GO_WORKSPACE_PATH}/src/github.com/jmolboy/go-wordpress`
 	path := "./test-data/test-media.jpg"
 
 	// prepare file to upload
