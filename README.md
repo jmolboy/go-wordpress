@@ -1,16 +1,19 @@
 Source of this project:https://github.com/robbiet480/go-wordpress
+
 # go-wordpress
+
 A Go client library for the [Wordpress REST API](https://developer.wordpress.org/rest-api/)
 
 ## Installation
 
 ```bash
-go get github.com/AndsGo/go-wordpress
+go get github.com/jmolboy/go-wordpress
 ```
 
 ## Usage
 
 ### Quick example
+
 ```go
 package main
 
@@ -19,7 +22,7 @@ import (
   "fmt"
   "net/http"
 
-  "github.com/AndsGo/go-wordpress"
+  "github.com/jmolboy/go-wordpress"
 )
 
 func main() {
@@ -140,14 +143,16 @@ func main() {
 
 ## Test
 
-__Note:__
+**Note:**
 Before running the tests, ensure that you have set up your test environment
 
 ### Prerequisites
+
 - Wordpress 4.x
 - [WP-API's BasicAuth plugin (for authentication)](https://github.com/WP-API/Basic-Auth)
 
 ### Setting up test environment
+
 - Install prequisites (see above)
 - Import [./test-data/go-wordpress.wordpress.2015-08-23.xml](./test-data/go-wordpress.wordpress.2015-08-23.xml) to your local test Wordpress installation
 - Upload at least one media to your Wordpress installation (Admin > Media > Upload)
